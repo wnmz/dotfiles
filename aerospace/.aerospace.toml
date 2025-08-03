@@ -147,6 +147,9 @@ alt-shift-tab = 'move-workspace-to-monitor --wrap-around next'
 # See: https://nikitabobko.github.io/AeroSpace/commands#mode
 alt-shift-semicolon = 'mode service'
 
+# Custom key-binding
+alt-enter = 'exec-and-forget open -na Terminal'
+
 # 'service' binding mode declaration.
 # See: https://nikitabobko.github.io/AeroSpace/guide#binding-modes
 [mode.service.binding]
@@ -169,8 +172,6 @@ alt-shift-l = ['join-with right', 'mode main']
 down = 'volume down'
 up = 'volume up'
 shift-down = ['volume set 0', 'mode main']
-
-alt-enter = 'exec-and-forget open -n /System/Applications/Utilities/T.app'
 
 [[on-window-detected]]
 if.app-id = 'com.spotify.client'
